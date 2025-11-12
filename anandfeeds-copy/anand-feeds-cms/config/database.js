@@ -6,9 +6,13 @@ module.exports = ({ env }) => {
   const connections = {
     postgres: {
       connection: {
-        connectionString: env('DATABASE_URL'),
-        ssl: {
-          rejectUnauthorized: env.bool('DATABASE_SSL_REJECT_UNAUTHORIZED', false),
+        host: env('DATABASE_HOST', 'localhost'),
+        port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'postgres'),
+        user: env('DATABASE_USERNAME', 'postgres'),
+        password: env('DATABASE_PASSWORD', 'strapi'),
+        ssl: env.bool('DATABASE_SSL', false) && {
+          rejectUnauthorized: false,
         },
       },
       pool: { 
