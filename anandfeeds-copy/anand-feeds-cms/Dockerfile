@@ -3,8 +3,9 @@ FROM node:18-alpine
 WORKDIR /srv/app
 
 # Install dependencies
-COPY package.json package-lock.json ./
-RUN npm ci --silent
+COPY package.json ./
+COPY package-lock.json* ./
+RUN npm ci --silent || npm install
 
 # Copy source
 COPY . .
