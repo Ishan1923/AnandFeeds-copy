@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hot_products",
+  "info": {
+    "singularName": "hot-product",
+    "pluralName": "hot-products",
+    "displayName": "Hot Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

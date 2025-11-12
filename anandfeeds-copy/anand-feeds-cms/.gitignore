@@ -1,0 +1,217 @@
+############################
+# OS X
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+
+############################
+# Linux
+############################
+
+*~
+.tmp
+
+############################
+# Windows
+############################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+############################
+# Packages
+############################
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+
+############################
+# Logs and databases
+############################
+
+*.tmp
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+
+############################
+# Misc.
+############################
+
+*#
+ssl
+.idea
+nbproject
+public/uploads/*
+!public/uploads/.gitkeep
+.tsbuildinfo
+.eslintcache
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+node_modules
+.node_history
+
+############################
+# Package managers
+############################
+
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/patches
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+yarn-error.log
+
+############################
+# Tests
+############################
+
+coverage
+
+############################
+# Strapi
+############################
+
+.env
+license.txt
+exports
+.strapi
+dist
+build
+.strapi-updater.json
+.strapi-cloud.json
+
+
+############################
+# Local environment files
+############################
+
+.env
+.env.example
+.env_backup
+
+
+############################
+# IDE/editor configs
+############################
+
+.idea/
+.vscode/
+
+
+############################
+# OS-specific files
+############################
+
+Thumbs.db
+Desktop.ini
+
+
+############################
+# Miscellaneous
+############################
+
+*.log
+*.tmp
+*.bak
+
+
+############################
+# Package manager lock files
+############################
+
+package-lock.json
+pnpm-lock.yaml
+
+
+############################
+# Build output
+############################
+
+build/
+dist/
+
+
+############################
+# Strapi artifacts
+############################
+
+.strapi/
+.strapi-updater.json
+.strapi-cloud.json
+
+
+############################
+# Node dependencies
+############################
+
+node_modules/
+
+
+############################
+# Database and uploads
+############################
+
+public/uploads/*
+!public/uploads/.gitkeep
+.tmp/
+*.sqlite
+*.sqlite3
+
+
+############################
+# Do not upload keys or secrets
+############################
+
+*.pem
+ec2-gh-key
+ec2-gh-key.pub
